@@ -8,7 +8,7 @@ Dieses Repo soll die wichtigsten Grundlagen zum Thema `Web Accessiblity` in Form
 
 == Aufbau
 
-Die Präsentation ist mit https://docs.asciidoctor.org/[Asciidoctor] geschrieben. Folgende Tools werden genutzt textbasiert eine Präsentation generieren zu können:
+Die Präsentation ist mit https://docs.asciidoctor.org/[Asciidoctor] geschrieben. Folgende Tools werden genutzt um textbasiert eine Präsentation generieren zu können:
 
 * https://docs.asciidoctor.org/asciidoctorj/latest/[AsciidocotorJ]
 * https://docs.asciidoctor.org/reveal.js-converter/latest/[Asciidocotor reveal.js]
