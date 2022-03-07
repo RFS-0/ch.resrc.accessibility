@@ -22,12 +22,16 @@ toc::[]
 
 == Was bedeutet Web Accessibility?
 
-Webseiten, Tools und Technologien sollen so designed und entwickelt sein, dass Menschen mit einer Behinderung
+Webseiten, Tools und Technologien sind so designed und entwickelt, dass Menschen mit einer Behinderung
 footnote:[https://www.fedlex.admin.ch/eli/cc/2003/667/de#art_2[Art. 2, BehiG]] sie nutzen können.
 footnote:[https://www.w3.org/WAI/fundamentals/accessibility-intro/#what[W3C, Intro]]
 footnote:[https://www.enableme.ch/de/artikel/bedeutung-von-barrierefreiheit-885[enableme, Erklärung]]
 
-Dazu müssen https://www.w3.org/WAI/people-use-web/abilities-barriers/#visual[visuelle], https://www.w3.org/WAI/people-use-web/abilities-barriers/#auditory[auditive], https://www.w3.org/WAI/people-use-web/abilities-barriers/#physical[motorische] und https://www.w3.org/WAI/people-use-web/abilities-barriers/#cognitive[kognitive] Barrieren vermieden oder kompensiert werden.
+Dazu werden
+https://www.w3.org/WAI/people-use-web/abilities-barriers/#visual[visuelle],
+https://www.w3.org/WAI/people-use-web/abilities-barriers/#auditory[auditive],
+https://www.w3.org/WAI/people-use-web/abilities-barriers/#physical[motorische] und
+https://www.w3.org/WAI/people-use-web/abilities-barriers/#cognitive[kognitive] Barrieren vermieden oder kompensiert.
 
 == Wieso ist Web Accessibility wichtig?
 
@@ -45,7 +49,7 @@ footnote:umsetzung-brk[https://www.skmr.ch/de/schwerpunkte/verletzliche-gruppen/
 * Bringt diverse Marktvorteile für Unternehmen
 footnote:[https://www.w3.org/WAI/fundamentals/accessibility-intro/#important[W3C, Accessibility is Important for Individuals, Businesses, Society]]
 footnote:[https://www.w3.org/WAI/business-case[W3C, The Business Case for Digital Accessibility ]]
-** z.B. Innovation, Brand, Marktabdeckung, Rechtssicherheit
+** z.B. Innovation, Markenwahrnehmung, Marktabdeckung, Rechtssicherheit
 
 == Die rechtlichen Grundlagen im Überblick
 
@@ -120,17 +124,18 @@ footnote:[https://www.edi.admin.ch/dam/edi/de/dokumente/gleichstellung/publikati
 [.smaller-image]
 image::components_of_web_accessibility.png[]
 
-* Damit eine Web Applikation barrierefrei ist müssen ihre Komponenten aufeinander abgestimmt sein.
+Damit eine Web Applikation barrierefrei ist müssen ihre Komponenten aufeinander abgestimmt sein.
 Damit z.B. blinde Personen herausfinden können was ein Bild repräsentiert braucht es:
 footnote:[https://www.w3.org/WAI/fundamentals/components[W3C, Essential Components of Web Accessibility]]
-** eine technische Spezifikation dafür (`alt` Attribut in HTML)
-** Guidelines (wie z.B. die WCAG) die definieren wie man `alt` für diesen Zweck nutzt
-** Enwickler:innen die das Attribut richtig einsezten
-** Tools (wie. z.B. Frameworks) welche den Entwickler dabei unterstützen
-** Tools welche prüfen, dass das Attribut definiert wurde
-** User Agents (z.B. Browser) als Schnittstelle für Mensch und Maschine
-** Unterstützende Technologien (z.B. Screen Reader) welche die Schnittstelle für den Mensch verbessern
-** Benutzer:innen die wissen wie man die Schnittstellen nutzt
+
+* eine technische Spezifikation dafür (`alt` Attribut in HTML)
+* Guidelines (wie z.B. die WCAG) die definieren wie man `alt` für diesen Zweck nutzt
+* Enwickler:innen die das Attribut richtig einsezten
+* Tools (wie. z.B. Frameworks) welche den Entwickler dabei unterstützen
+* Tools welche prüfen, dass das Attribut definiert wurde
+* User Agents (z.B. Browser) als Schnittstelle für Mensch und Maschine
+* Unterstützende Technologien (z.B. Screen Reader) welche die Schnittstelle für den Mensch verbessern
+* Benutzer:innen die wissen wie man die Schnittstellen nutzt
 
 == Wie identifiziert man Verbesserungspotenzial?
 
@@ -146,8 +151,6 @@ footnote:[https://a11y.digitaldialog.swiss/[Strategie «Digitale Schweiz» des B
 footnote:[https://wave.webaim.org/[WebAIM, WAVE Web Accessibility Evaluation Tool]]
 footnote:[https://www.access-for-all.ch/ch/wissensecke-faq/tools-fuer-barrierefreies-webdesign.html[Zugang für alle, Tools für barrierefreies Webdesign]]
 ** indem man ein Bewusstsein für das Thema schafft
-** eine Zertifizierung angstrebt
-footnote:[https://www.access-for-all.ch/ch/zertifizierung.html[Zugang für alle, Zertifizierung]]
 
 == Was sind die wichtigsten Punkte des WCAG?
 
