@@ -1,0 +1,26 @@
+= Was ist Web Accessibility? -> Eine kurze Einführung
+
+:toc:
+
+== Zweck dieses Repos
+
+Dieses Repo soll die wichtigsten Grundlagen zum Thema `Web Accessiblity` in Form einer Präsentation zusammen fassen.
+
+== Aufbau
+
+Die Präsentation ist mit https://docs.asciidoctor.org/[Asciidoctor] geschrieben. Folgende Tools werden genutzt textbasiert eine Präsentation generieren zu können:
+
+* https://docs.asciidoctor.org/asciidoctorj/latest/[AsciidocotorJ]
+* https://docs.asciidoctor.org/reveal.js-converter/latest/[Asciidocotor reveal.js]
+* https://revealjs.com/[reveal.js]
+* https://gradle.org/[Gradle]
+* https://pages.github.com/[GitHub Pages]
+* https://docs.github.com/en/actions[GitHub Actions]
+
+Der Inhalt der Präsentation ist in der Datei xref:src/main/resources/slides.adoc[slides.adoc] definiert.
+
+Mit `./gradlew run` wird die Präsentation von AsciiDoc zu HTML konvertiert und der Inhalt von xref:/docs[docs] mit der neuen Version überschrieben. Mit `./gradlew run --continuous` wird die Präsentation nach jedem Change an einem der Input-Files neu gebaut.
+
+Das resultierende xref:/docs/index.html[index.html] kann mit einem beliebigen Browser geöffnet werden.
+
+Bei jeder Änderung auf dem `main`-Branch wird die Präsentation neu gebaut und als https://pages.github.com/[GitHub Page] unter https://rfs-0.github.io/ch.resrc.accessibility/ deployed.
