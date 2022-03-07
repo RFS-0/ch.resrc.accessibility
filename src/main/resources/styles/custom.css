@@ -1,0 +1,43 @@
+.reveal section img {
+    border: 0 solid #222;
+}
+
+.reveal h1, .reveal h2 {
+    text-transform: none;
+}
+
+.reveal .slide-background-content {
+    background-position: top right;
+    text-transform: none;
+}
+
+div.imageblock.maxed-image img {
+    width: 100%;
+}
+div.imageblock.smaller-image img {
+    width: 25%;
+}
+
+.smaller-text {
+    font-size: 0.75em;
+}
+
+.abgelehnt {
+    font-size: 0.75em;
+    color: red;
+}
+
+.rechtsnorm {
+    font-size: 0.75em;
+    color: blue;
+}
+
+.organisation {
+    font-size: 0.75em;
+    color: purple;
+}
+
+.standard {
+    font-size: 0.75em;
+    color: green;
+}
