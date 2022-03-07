@@ -1,0 +1,163 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg height='404pt' preserveAspectRatio='xMidYMid meet' viewBox='0.00 0.00 1018.08 404.00' width='1018pt' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns='http://www.w3.org/2000/svg'>
+<g class='graph' id='graph0' transform='scale(1 1) rotate(0) translate(4 400)'>
+<title>modules</title>
+<polygon fill='white' points='-4,4 -4,-400 1014.08,-400 1014.08,4 -4,4' stroke='transparent'/>
+
+<g class='node' id='node1'>
+<title>Web Content Accessibility Guidelines</title>
+<ellipse cx='328.73' cy='-90' fill='none' rx='183.87' ry='18' stroke='green'/>
+<text font-family='Times,serif' font-size='14.00' text-anchor='middle' x='328.73' y='-86.3'>Web Content Accessibility Guidelines</text>
+</g>
+
+<g class='node' id='node8'>
+<title>W3C</title>
+<ellipse cx='477.73' cy='-162' fill='none' rx='32.49' ry='18' stroke='purple'/>
+<text font-family='Times,serif' font-size='14.00' text-anchor='middle' x='477.73' y='-158.3'>W3C</text>
+</g>
+
+<g class='edge' id='edge15'>
+<title>Web Content Accessibility Guidelines&#45;&gt;W3C</title>
+<path d='M364.42,-107.77C388.64,-119.14 420.44,-134.08 444.19,-145.24' fill='none' stroke='black'/>
+<polygon fill='black' points='442.97,-148.53 453.5,-149.62 445.94,-142.2 442.97,-148.53' stroke='black'/>
+</g>
+
+<g class='node' id='node2'>
+<title>Behindertenrechtskonvention (BRK)</title>
+<ellipse cx='178.73' cy='-378' fill='none' rx='178.97' ry='18' stroke='blue'/>
+<text font-family='Times,serif' font-size='14.00' text-anchor='middle' x='178.73' y='-374.3'>Behindertenrechtskonvention (BRK)</text>
+</g>
+
+<g class='node' id='node3'>
+<title>Bundesverfassung</title>
+<ellipse cx='311.73' cy='-306' fill='none' rx='96.68' ry='18' stroke='blue'/>
+<text font-family='Times,serif' font-size='14.00' text-anchor='middle' x='311.73' y='-302.3'>Bundesverfassung</text>
+</g>
+
+<g class='edge' id='edge1'>
+<title>Bundesverfassung&#45;&gt;Behindertenrechtskonvention (BRK)</title>
+<path d='M280.89,-323.24C262.74,-332.79 239.55,-344.99 219.86,-355.35' fill='none' stroke='black'/>
+<polygon fill='black' points='218.02,-352.37 210.8,-360.12 221.28,-358.56 218.02,-352.37' stroke='black'/>
+</g>
+
+<g class='node' id='node4'>
+<title>Behindertengleichstellungsgesetz</title>
+<ellipse cx='686.73' cy='-234' fill='none' rx='168.97' ry='18' stroke='blue'/>
+<text font-family='Times,serif' font-size='14.00' text-anchor='middle' x='686.73' y='-230.3'>Behindertengleichstellungsgesetz</text>
+</g>
+
+<g class='edge' id='edge2'>
+<title>Behindertengleichstellungsgesetz&#45;&gt;Bundesverfassung</title>
+<path d='M606.75,-249.93C541.92,-262.03 451.19,-278.97 387.52,-290.85' fill='none' stroke='black'/>
+<polygon fill='black' points='386.73,-287.44 377.54,-292.72 388.01,-294.32 386.73,-287.44' stroke='black'/>
+</g>
+
+<g class='node' id='node6'>
+<title>Volksinitiative &#39;Gleiche Rechte für Behinderte&#39;</title>
+<ellipse cx='686.73' cy='-306' fill='none' rx='225.56' ry='18' stroke='red'/>
+<text font-family='Times,serif' font-size='14.00' text-anchor='middle' x='686.73' y='-302.3'>Volksinitiative &#39;Gleiche Rechte für Behinderte&#39;</text>
+</g>
+
+<g class='edge' id='edge3'>
+<title>Behindertengleichstellungsgesetz&#45;&gt;Volksinitiative &#39;Gleiche Rechte für Behinderte&#39;</title>
+<path d='M686.73,-252.3C686.73,-260.02 686.73,-269.29 686.73,-277.89' fill='none' stroke='black'/>
+<polygon fill='black' points='683.23,-277.9 686.73,-287.9 690.23,-277.9 683.23,-277.9' stroke='black'/>
+</g>
+
+<g class='node' id='node5'>
+<title>Behindertengleichstellungsverordnung</title>
+<ellipse cx='722.73' cy='-90' fill='none' rx='192.27' ry='18' stroke='blue'/>
+<text font-family='Times,serif' font-size='14.00' text-anchor='middle' x='722.73' y='-86.3'>Behindertengleichstellungsverordnung</text>
+</g>
+
+<g class='edge' id='edge5'>
+<title>Behindertengleichstellungsverordnung&#45;&gt;Behindertengleichstellungsgesetz</title>
+<path d='M718.39,-108.13C712.23,-132.44 700.89,-177.18 693.58,-205.99' fill='none' stroke='black'/>
+<polygon fill='black' points='690.16,-205.26 691.09,-215.81 696.94,-206.98 690.16,-205.26' stroke='black'/>
+</g>
+
+<g class='node' id='node7'>
+<title>EBGB</title>
+<ellipse cx='971.73' cy='-90' fill='none' rx='38.19' ry='18' stroke='purple'/>
+<text font-family='Times,serif' font-size='14.00' text-anchor='middle' x='971.73' y='-86.3'>EBGB</text>
+</g>
+
+<g class='edge' id='edge7'>
+<title>EBGB&#45;&gt;Behindertengleichstellungsgesetz</title>
+<path d='M946.44,-103.6C897.56,-127.96 789.65,-181.72 729.44,-211.72' fill='none' stroke='black'/>
+<polygon fill='black' points='727.6,-208.73 720.21,-216.32 730.72,-214.99 727.6,-208.73' stroke='black'/>
+</g>
+
+<g class='edge' id='edge6'>
+<title>W3C&#45;&gt;Behindertengleichstellungsgesetz</title>
+<path d='M505.06,-172.15C536.23,-182.59 588.12,-199.97 628.48,-213.49' fill='none' stroke='black'/>
+<polygon fill='black' points='627.61,-216.89 638.21,-216.75 629.84,-210.25 627.61,-216.89' stroke='black'/>
+</g>
+
+<g class='node' id='node9'>
+<title>Richtlinien des Bundes, P028</title>
+<ellipse cx='823.73' cy='-18' fill='none' rx='147.57' ry='18' stroke='green'/>
+<text font-family='Times,serif' font-size='14.00' text-anchor='middle' x='823.73' y='-14.3'>Richtlinien des Bundes, P028</text>
+</g>
+
+<g class='edge' id='edge14'>
+<title>Richtlinien des Bundes, P028&#45;&gt;Web Content Accessibility Guidelines</title>
+<path d='M731.21,-32.08C648.36,-43.8 526.73,-61 438.89,-73.42' fill='none' stroke='black'/>
+<polygon fill='black' points='438.3,-69.97 428.88,-74.84 439.28,-76.9 438.3,-69.97' stroke='black'/>
+</g>
+
+<g class='edge' id='edge10'>
+<title>Richtlinien des Bundes, P028&#45;&gt;Behindertengleichstellungsverordnung</title>
+<path d='M799.54,-35.77C786.4,-44.88 769.95,-56.28 755.65,-66.18' fill='none' stroke='black'/>
+<polygon fill='black' points='753.3,-63.55 747.08,-72.13 757.29,-69.31 753.3,-63.55' stroke='black'/>
+</g>
+
+<g class='edge' id='edge8'>
+<title>Richtlinien des Bundes, P028&#45;&gt;EBGB</title>
+<path d='M858.81,-35.59C882.25,-46.68 912.97,-61.21 936.46,-72.31' fill='none' stroke='black'/>
+<polygon fill='black' points='935.17,-75.58 945.71,-76.69 938.17,-69.25 935.17,-75.58' stroke='black'/>
+</g>
+
+<g class='node' id='node10'>
+<title>eCH&#45;0059 Accessibility Standard</title>
+<ellipse cx='226.73' cy='-18' fill='none' rx='163.57' ry='18' stroke='green'/>
+<text font-family='Times,serif' font-size='14.00' text-anchor='middle' x='226.73' y='-14.3'>eCH&#45;0059 Accessibility Standard</text>
+</g>
+
+<g class='edge' id='edge13'>
+<title>eCH&#45;0059 Accessibility Standard&#45;&gt;Web Content Accessibility Guidelines</title>
+<path d='M251.43,-35.95C264.61,-44.99 281.02,-56.26 295.33,-66.07' fill='none' stroke='black'/>
+<polygon fill='black' points='293.69,-69.2 303.92,-71.97 297.65,-63.42 293.69,-69.2' stroke='black'/>
+</g>
+
+<g class='edge' id='edge4'>
+<title>eCH&#45;0059 Accessibility Standard&#45;&gt;Behindertenrechtskonvention (BRK)</title>
+<path d='M182.74,-35.39C165.66,-43.86 147.42,-55.86 135.73,-72 112.01,-104.76 116.73,-120.55 116.73,-161 116.73,-161 116.73,-161 116.73,-235 116.73,-278.5 141.48,-323.71 159.7,-351.11' fill='none' stroke='black'/>
+<polygon fill='black' points='157.04,-353.42 165.59,-359.69 162.82,-349.46 157.04,-353.42' stroke='black'/>
+</g>
+
+<g class='node' id='node11'>
+<title>Accessibility Checkliste</title>
+<ellipse cx='537.73' cy='-18' fill='none' rx='120.48' ry='18' stroke='green'/>
+<text font-family='Times,serif' font-size='14.00' text-anchor='middle' x='537.73' y='-14.3'>Accessibility Checkliste</text>
+</g>
+
+<g class='edge' id='edge12'>
+<title>Accessibility Checkliste&#45;&gt;Web Content Accessibility Guidelines</title>
+<path d='M491.09,-34.62C460.56,-44.85 420.42,-58.29 387.68,-69.26' fill='none' stroke='black'/>
+<polygon fill='black' points='386.15,-66.08 377.78,-72.57 388.37,-72.72 386.15,-66.08' stroke='black'/>
+</g>
+
+<g class='edge' id='edge11'>
+<title>Accessibility Checkliste&#45;&gt;Behindertengleichstellungsverordnung</title>
+<path d='M579.71,-34.88C606.34,-44.96 641.02,-58.08 669.57,-68.88' fill='none' stroke='black'/>
+<polygon fill='black' points='668.4,-72.18 678.99,-72.45 670.88,-65.64 668.4,-72.18' stroke='black'/>
+</g>
+
+<g class='edge' id='edge9'>
+<title>Accessibility Checkliste&#45;&gt;EBGB</title>
+<path d='M624.89,-30.51C734.26,-45.02 909.36,-68.51 923.73,-72 926.96,-72.78 930.26,-73.7 933.56,-74.7' fill='none' stroke='black'/>
+<polygon fill='black' points='932.75,-78.11 943.34,-77.87 934.91,-71.46 932.75,-78.11' stroke='black'/>
+</g>
+</g>
+</svg>
