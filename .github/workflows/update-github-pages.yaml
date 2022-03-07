@@ -32,6 +32,10 @@ jobs:
         uses: gradle/wrapper-validation-action@v1
         with:
           gradle-version: 7.3
+      - name: Install graphviz
+        run : |
+          sudo apt-get update
+          sudo apt-get install graphviz
       - name: Execute task asciidoctor
         uses: gradle/gradle-build-action@v2
         with:
