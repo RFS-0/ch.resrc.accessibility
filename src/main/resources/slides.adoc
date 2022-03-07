@@ -1,0 +1,167 @@
+:revealjs_width: 1600
+:revealjs_height: 1200
+:revealjs_margin: 0.06
+:revealjs_theme: white
+:revealjs_center: true
+:revealjs_transition: fade
+:revealjs_transitionSpeed: fast
+
+:imagesdir: images
+:title-slide-background-image: accessiblity_icons.svg
+
+:customcss: ./styles/custom.css
+
+= Was ist Web Accessibility? : -> eine kurze Einführung
+
+:toc-title:
+
+[%notitle]
+== Inhaltsverzeichnis
+
+toc::[]
+
+== Was bedeutet Web Accessibility?
+
+Webseiten, Tools und Technologien sollen so designed und entwickelt sein, dass Menschen mit einer Behinderung
+footnote:[https://www.fedlex.admin.ch/eli/cc/2003/667/de#art_2[Art. 2, BehiG]] sie nutzen können.
+footnote:[https://www.w3.org/WAI/fundamentals/accessibility-intro/#what[W3C, Intro]]
+footnote:[https://www.enableme.ch/de/artikel/bedeutung-von-barrierefreiheit-885[enableme, Erklärung]]
+
+Dazu müssen https://www.w3.org/WAI/people-use-web/abilities-barriers/#visual[visuelle], https://www.w3.org/WAI/people-use-web/abilities-barriers/#auditory[auditive], https://www.w3.org/WAI/people-use-web/abilities-barriers/#physical[motorische] und https://www.w3.org/WAI/people-use-web/abilities-barriers/#cognitive[kognitive] Barrieren vermieden oder kompensiert werden.
+
+== Wieso ist Web Accessibility wichtig?
+
+* 22% der Schweizer Bevölkerung sind betroffen
+footnote:bfs-betroffen[https://www.bfs.admin.ch/bfs/de/home/statistiken/wirtschaftliche-soziale-situation-bevoelkerung/gleichstellung-menschen-behinderungen/behinderungen/individuelle-merkmale.html[BfS, Menschen mit Behinderungen gemäss Gleichstellungsgesetz]]
+** Im Alter von 16-24 J. sind 10% betroffen, ab 80 J. sind es 47%
+footnote:bfs-betroffen[]
+* Fördert die Chancengleichheit
+footnote:zweck-brk[https://www.edi.admin.ch/edi/de/home/fachstellen/ebgb/recht/international0/uebereinkommen-der-uno-ueber-die-rechte-von-menschen-mit-behinde/geltungsbereich-und-zweck.html[Behindertenrechtskonvention (BRK), Geltungsbereich und Zweck]]
+footnote:schweiz-gleichstellung[https://www.bj.admin.ch/bj/de/home/gesellschaft/gesetzgebung/archiv/behinderte.html[BJ, Gleichstellung der Behinderten]]
+** Gemäss BRK gilt der Zugang zu Information als Menschenrecht
+* Reduziert die Diskriminierung
+footnote:zweck-brk[]
+footnote:umsetzung-brk[https://www.skmr.ch/de/schwerpunkte/verletzliche-gruppen/umsetzung-uno-brk/index.html[SKMR, Teilprojekt Umsetzung der UNO-Behindertenrechtskonvention in der Schweiz]]
+* Bringt diverse Marktvorteile für Unternehmen
+footnote:[https://www.w3.org/WAI/fundamentals/accessibility-intro/#important[W3C, Accessibility is Important for Individuals, Businesses, Society]]
+footnote:[https://www.w3.org/WAI/business-case[W3C, The Business Case for Digital Accessibility ]]
+** z.B. Innovation, Brand, Marktabdeckung, Rechtssicherheit
+
+== Die rechtlichen Grundlagen im Überblick
+
+[.maxed-image]
+[graphviz,modules,svg]
+....
+digraph modules {
+    rankdir = BT;
+
+    "Web Content Accessibility Guidelines" [color=green]
+    "Behindertenrechtskonvention (BRK)" [color=blue]
+    Bundesverfassung [color=blue]
+    Behindertengleichstellungsgesetz [color=blue]
+    Behindertengleichstellungsverordnung [color=blue]
+    "Volksinitiative 'Gleiche Rechte für Behinderte'" [color=red]
+    "EBGB" [color=green]
+    "EBGB" [color=purple]
+    W3C[color=purple]
+    "Richtlinien des Bundes, P028" [color=green]
+    "eCH-0059 Accessibility Standard" [color=green]
+    "Accessibility Checkliste" [color=green]
+
+    Bundesverfassung -> "Behindertenrechtskonvention (BRK)"
+    Behindertengleichstellungsgesetz -> Bundesverfassung
+    Behindertengleichstellungsgesetz -> "Volksinitiative 'Gleiche Rechte für Behinderte'"
+    "eCH-0059 Accessibility Standard" -> "Behindertenrechtskonvention (BRK)"
+    Behindertengleichstellungsverordnung -> Behindertengleichstellungsgesetz
+    W3C -> Behindertengleichstellungsgesetz
+    "EBGB" -> Behindertengleichstellungsgesetz
+    "Richtlinien des Bundes, P028" -> "EBGB"
+    "Accessibility Checkliste" -> "EBGB"
+    "Richtlinien des Bundes, P028" -> Behindertengleichstellungsverordnung
+    "Accessibility Checkliste" -> Behindertengleichstellungsverordnung
+    "Accessibility Checkliste" -> "Web Content Accessibility Guidelines"
+    "eCH-0059 Accessibility Standard" -> "Web Content Accessibility Guidelines"
+    "Richtlinien des Bundes, P028" -> "Web Content Accessibility Guidelines"
+    "Web Content Accessibility Guidelines" -> W3C
+}
+....
+
+[.abgelehnt]
+Abgelehnt
+
+[.rechtsnorm]
+Rechtsnorm
+
+[.organisation]
+Organisation
+
+[.standard]
+Standard
+
+== Was bedeuten die aktuellen rechtlichen Grundlagen?
+
+* Gleichstellung von Behinderten ist in der Schweiz spätestens seit 1999 ein Thema
+footnote:[https://www.bj.admin.ch/bj/de/home/gesellschaft/gesetzgebung/archiv/behinderte.html[Gleichstellung der Behinderten]]
+footnote:[https://www.fedlex.admin.ch/eli/fga/2001/434/de[Fedlex, Botschaft des Bundesrates zur Volksinitiative]]
+* Die relevanten Rechtsnormen sind das BehiG
+footnote:[https://www.fedlex.admin.ch/eli/cc/2003/667/de[Fedlex, BehiG]] und die BRK
+footnote:[https://www.edi.admin.ch/edi/de/home/fachstellen/ebgb/recht/international0/uebereinkommen-der-uno-ueber-die-rechte-von-menschen-mit-behinde.html[EDI, BRK]]
+** Das BehiG betrifft nur den Staat und staatlich konzessionierte Unternehmen
+** Die BRK betrifft Staat und Privatwirtschaft, hat aber nur programmatischen Charakter
+* Der relevante Standard in der Schweiz ist **WCAG 2.1**
+footnote:[https://www.access-for-all.ch/ch/barrierefreiheit/rechtlicher-rahmen-in-der-schweiz.html[W3C, WCAG 2.1]]
+footnote:[https://www.w3.org/WAI/policies/[W3C, Policies]] (Stufe AA)
+* Beim Thema Web Accessiblity sieht der Bund insbesondere bei privaten Anbietern Nachholbedarf
+footnote:[https://www.edi.admin.ch/dam/edi/de/dokumente/gleichstellung/publikation/bericht.pdf.download.pdf/bericht.pdf[EBGB, Bericht "Behindertenpolitik"]]
+
+[.smaller-text]
+== Was gilt es bei der Entwicklung von Web Applikationen zu beachten?
+
+[.smaller-image]
+image::components_of_web_accessibility.png[]
+
+* Damit eine Web Applikation barrierefrei ist müssen ihre Komponenten aufeinander abgestimmt sein.
+Damit z.B. blinde Personen herausfinden können was ein Bild repräsentiert braucht es:
+footnote:[https://www.w3.org/WAI/fundamentals/components[W3C, Essential Components of Web Accessibility]]
+** eine technische Spezifikation dafür (`alt` Attribut in HTML)
+** Guidelines (wie z.B. die WCAG) die definieren wie man `alt` für diesen Zweck nutzt
+** Enwickler:innen die das Attribut richtig einsezten
+** Tools (wie. z.B. Frameworks) welche den Entwickler dabei unterstützen
+** Tools welche prüfen, dass das Attribut definiert wurde
+** User Agents (z.B. Browser) als Schnittstelle für Mensch und Maschine
+** Unterstützende Technologien (z.B. Screen Reader) welche die Schnittstelle für den Mensch verbessern
+** Benutzer:innen die wissen wie man die Schnittstellen nutzt
+
+== Wie identifiziert man Verbesserungspotenzial?
+
+* Verbesserungspotenzial lässt sich wie folgt identifizieren:
+** mit einem Review durch Experten:innen
+footnote:[https://www.access-for-all.ch/ch/beratung/accessibility-quicktest.html[Zugang für alle, Accessibility Quicktest ]]
+footnote:[https://www.access-for-all.ch/ch/beratung/accessibility-expert-review.html[Zugang für alle, Accessibility Review]]
+** mit einem selbst durchgeführten Review mit Hilfe von
+*** Checklisten
+footnote:[https://www.w3.org/WAI/WCAG21/quickref/[W3C, How to Meet WCAG]]
+footnote:[https://a11y.digitaldialog.swiss/[Strategie «Digitale Schweiz» des Bundesrates, Accessibility Checkliste]]
+*** Tools
+footnote:[https://wave.webaim.org/[WebAIM, WAVE Web Accessibility Evaluation Tool]]
+footnote:[https://www.access-for-all.ch/ch/wissensecke-faq/tools-fuer-barrierefreies-webdesign.html[Zugang für alle, Tools für barrierefreies Webdesign]]
+** indem man ein Bewusstsein für das Thema schafft
+** eine Zertifizierung angstrebt
+footnote:[https://www.access-for-all.ch/ch/zertifizierung.html[Zugang für alle, Zertifizierung]]
+
+== Was sind die wichtigsten Punkte des WCAG?
+
+* Die WCAG orientieren sich an vier Accessiblity Prinzipien:
+footnote:[https://www.w3.org/WAI/fundamentals/accessibility-principles/[W3C, Accessibility Principles]]
+** Wahrnehmbarkeit
+footnote:[https://www.w3.org/WAI/WCAG21/quickref/#principle1[WCAG 2.1, Principle 1 - Perceivable]]
+*** es sollte möglichst einfach sein Inhalte zu sehen oder hören
+** Bedienbarkeit
+*** es sollte möglich sein sämtliche Funktionalität mit einer Tastatur zu nutzen
+footnote:[https://www.w3.org/WAI/WCAG21/quickref/#principle2[WCAG 2.1, Principle 2 - Operable]]
+** Verständlichkeit
+footnote:[https://www.w3.org/WAI/WCAG21/quickref/#principle3[WCAG 2.1, Principle 3 – Understandable]]
+*** es möglichst einfach sein Text zu lesen und zu verstehen
+** Robustheit
+footnote:[https://www.w3.org/WAI/WCAG21/quickref/#principle4[WCAG 2.1, Principle 4 – Robust]]
+*** die Applikation sollte möglichst kompatibel mit aktuellen und zukünftigen Technologien sein

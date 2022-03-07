@@ -1,0 +1,50 @@
+name: Update GitHub Page
+on:
+  push:
+    branches:
+      - 'main'
+
+jobs:
+  update-github-pages:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v2
+        with:
+          ref: main
+          fetch-depth: 0
+      - name: Checkout github-pages
+        uses: actions/checkout@v2.4.0
+        with:
+          ref: github-pages
+          fetch-depth: 0
+      - name: Merge main into github-pages
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git merge origin/main
+      - name: Set up JDK 17
+        uses: actions/setup-java@v2
+        with:
+          java-version: '17'
+          distribution: 'adopt'
+      - name: Validate Gradle wrapper
+        uses: gradle/wrapper-validation-action@v1
+        with:
+          gradle-version: 7.3
+      - name: Execute task asciidoctor
+        uses: gradle/gradle-build-action@v2
+        with:
+          arguments: run
+          gradle-version: 7.3
+      - name: Commit updated static files for page
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add .
+          git commit --message='[AUTO-COMMIT] Update GitHub pages'
+      - name: Push github-pages branch
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git push
